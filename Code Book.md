@@ -20,74 +20,76 @@ Citation Request
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
-# Variable Descriptions
+### Variable Descriptions
 
-## Variable        Description
-Activity	        The activity performed
-Subject	Subject ID
-tbodyacc-mean()-x	mean() time for acceleration of body for X direction
-tbodyacc-mean()-y	mean() time for acceleration of body for Y direction
-tbodyacc-mean()-z	mean() time for acceleration of body for Z direction
-tbodyacc-std()-x	Standard deviation of time for acceleration of body for X direction
-tbodyacc-std()-y	Standard deviation of time for acceleration of body for Y direction
-tbodyacc-std()-z	Standard deviation of time for acceleration of body for Z direction
-tgravityacc-mean()-x	mean() time of acceleration of gravity for X direction
-tgravityacc-mean()-y	mean() time of acceleration of gravity for Y direction
-tgravityacc-mean()-z	mean() time of acceleration of gravity for Z direction
-tgravityacc-std()-x	Standard deviation of time of acceleration of gravity for X direction
-tgravityacc-std()-y	Standard deviation of time of acceleration of gravity for Y direction
-tgravityacc-std()-z	Standard deviation of time of acceleration of gravity for Z direction
-tbodyaccjerk-mean()-x	mean() time of body acceleration jerk for X direction
-tbodyaccjerk-mean()-y	mean() time of body acceleration jerk for Y direction
-tbodyaccjerk-mean()-z	mean() time of body acceleration jerk for Z direction
-tbodyaccjerk-std()-x	Standard deviation of time of body acceleration jerk for X direction
-tbodyaccjerk-std()-y	Standard deviation of time of body acceleration jerk for Y direction
-tbodyaccjerk-std()-z	Standard deviation of time of body acceleration jerk for Z direction
-tbodygyro-mean()-x	mean() body gyroscope measurement for X direction
-tbodygyro-mean()-y	mean() body gyroscope measurement for Y direction
-tbodygyro-mean()-z	mean() body gyroscope measurement for Z direction
-tbodygyro-std()-x	Standard deviation of body gyroscope measurement for X direction
-tbodygyro-std()-y	Standard deviation of body gyroscope measurement for Y direction
-tbodygyro-std()-z	Standard deviation of body gyroscope measurement for Z direction
-tbodygyrojerk-mean()-x	mean() jerk signal of body for X direction
-tbodygyrojerk-mean()-y	mean() jerk signal of body for Y direction
-tbodygyrojerk-mean()-z	mean() jerk signal of body for Z direction
-tbodygyrojerk-std()-x	Standard deviation of jerk signal of body for X direction
-tbodygyrojerk-std()-y	Standard deviation of jerk signal of body for Y direction
-tbodygyrojerk-std()-z	Standard deviation of jerk signal of body for Z direction
-tbodyaccmag-mean()	mean() magnitude of body Acc
-tbodyaccmag-std()	Standard deviation of magnitude of body Acc
-tgravityaccmag-mean()	mean() gravity acceleration magnitude
-tgravityaccmag-std()	Standard deviation of gravity acceleration magnitude
-tbodyaccjerkmag-mean()	mean() magnitude of body acceleration jerk
-tbodyaccjerkmag-std()	Standard deviation of magnitude of body acceleration jerk
-tbodygyromag-mean()	mean() magnitude of body gyroscope measurement
-tbodygyromag-std()	Standard deviation of magnitude of body gyroscope measurement
-tbodygyrojerkmag-mean()	mean() magnitude of body body gyroscope jerk measurement
-tbodygyrojerkmag-std()	Standard deviation of magnitude of body body gyroscope jerk measurement
-fbodyacc-mean()-x	mean() frequency of body acceleration for X direction
-fbodyacc-mean()-y	mean() frequency of body acceleration for Y direction
-fbodyacc-mean()-z	mean() frequency of body acceleration for Z direction
-fbodyacc-std()-x	Standard deviation of frequency of body acceleration for X direction
-fbodyacc-std()-y	Standard deviation of frequency of body acceleration for Y direction
-fbodyacc-std()-z	Standard deviation of frequency of body acceleration for Z direction
-fbodyaccjerk-mean()-x	mean() frequency of body accerlation jerk for X direction
-fbodyaccjerk-mean()-y	mean() frequency of body accerlation jerk for Y direction
-fbodyaccjerk-mean()-z	mean() frequency of body accerlation jerk for Z direction
-fbodyaccjerk-std()-x	Standard deviation frequency of body accerlation jerk for X direction
-fbodyaccjerk-std()-y	Standard deviation frequency of body accerlation jerk for Y direction
-fbodyaccjerk-std()-z	Standard deviation frequency of body accerlation jerk for Z direction
-fbodygyro-mean()-x	mean() frequency of body gyroscope measurement for X direction
-fbodygyro-mean()-y	mean() frequency of body gyroscope measurement for Y direction
-fbodygyro-mean()-z	mean() frequency of body gyroscope measurement for Z direction
-fbodygyro-std()-x	Standard deviation frequency of body gyroscope measurement for X direction
-fbodygyro-std()-y	Standard deviation frequency of body gyroscope measurement for Y direction
-fbodygyro-std()-z	Standard deviation frequency of body gyroscope measurement for Z direction
-fbodyaccmag-mean()	mean() frequency of body acceleration magnitude
-fbodyaccmag-std()	Standard deviation of frequency of body acceleration magnitude
-fbodybodyaccjerkmag-mean()	mean() frequency of body acceleration jerk magnitude
-fbodybodyaccjerkmag-std()	Standard deviation of frequency of body acceleration jerk magnitude
-fbodybodygyromag-mean()	mean() frequency of magnitude of body gyroscope measurement
-fbodybodygyromag-std()	Standard deviation of frequency of magnitude of body gyroscope measurement
-fbodybodygyrojerkmag-mean()	mean() frequency of magnitude of body gyroscope jerk measurement
-fbodybodygyrojerkmag-std()	Standard deviation frequency of magnitude of body gyroscope jerk measurement
+
+| Variable | Description
+-----------|-------------
+| activities | The activity performed
+| subject | Subject ID
+| tbodyacc-mean()-x | mean() time for acceleration of body for X direction
+| tbodyacc-mean()-y | mean() time for acceleration of body for Y direction
+| tbodyacc-mean()-z | mean() time for acceleration of body for Z direction
+| tbodyacc-std()-x | Standard deviation of time for acceleration of body for X direction
+| tbodyacc-std()-y | Standard deviation of time for acceleration of body for Y direction
+| tbodyacc-std()-z | Standard deviation of time for acceleration of body for Z direction
+| tgravityacc-mean()-x | mean() time of acceleration of gravity for X direction
+| tgravityacc-mean()-y | mean() time of acceleration of gravity for Y direction
+| tgravityacc-mean()-z | mean() time of acceleration of gravity for Z direction
+| tgravityacc-std()-x | Standard deviation of time of acceleration of gravity for X direction
+| tgravityacc-std()-y | Standard deviation of time of acceleration of gravity for Y direction
+| tgravityacc-std()-z | Standard deviation of time of acceleration of gravity for Z direction
+| tbodyaccjerk-mean()-x | mean() time of body acceleration jerk for X direction
+| tbodyaccjerk-mean()-y | mean() time of body acceleration jerk for Y direction
+| tbodyaccjerk-mean()-z | mean() time of body acceleration jerk for Z direction
+| tbodyaccjerk-std()-x | Standard deviation of time of body acceleration jerk for X direction
+| tbodyaccjerk-std()-y | Standard deviation of time of body acceleration jerk for Y direction
+| tbodyaccjerk-std()-z | Standard deviation of time of body acceleration jerk for Z direction
+| tbodygyro-mean()-x | mean() body gyroscope measurement for X direction
+| tbodygyro-mean()-y | mean() body gyroscope measurement for Y direction
+| tbodygyro-mean()-z | mean() body gyroscope measurement for Z direction
+| tbodygyro-std()-x | Standard deviation of body gyroscope measurement for X direction
+| tbodygyro-std()-y | Standard deviation of body gyroscope measurement for Y direction
+| tbodygyro-std()-z | Standard deviation of body gyroscope measurement for Z direction
+| tbodygyrojerk-mean()-x | mean() jerk signal of body for X direction
+| tbodygyrojerk-mean()-y | mean() jerk signal of body for Y direction
+| tbodygyrojerk-mean()-z | mean() jerk signal of body for Z direction
+| tbodygyrojerk-std()-x | Standard deviation of jerk signal of body for X direction
+| tbodygyrojerk-std()-y | Standard deviation of jerk signal of body for Y direction
+| tbodygyrojerk-std()-z | Standard deviation of jerk signal of body for Z direction
+| tbodyaccmag-mean() | mean() magnitude of body Acc
+| tbodyaccmag-std() | Standard deviation of magnitude of body Acc
+| tgravityaccmag-mean() | mean() gravity acceleration magnitude
+| tgravityaccmag-std() | Standard deviation of gravity acceleration magnitude
+| tbodyaccjerkmag-mean() | mean() magnitude of body acceleration jerk
+| tbodyaccjerkmag-std() | Standard deviation of magnitude of body acceleration jerk
+| tbodygyromag-mean() | mean() magnitude of body gyroscope measurement
+| tbodygyromag-std() | Standard deviation of magnitude of body gyroscope measurement
+| tbodygyrojerkmag-mean() | mean() magnitude of body body gyroscope jerk measurement
+| tbodygyrojerkmag-std() | Standard deviation of magnitude of body body gyroscope jerk measurement
+| fbodyacc-mean()-x | mean() frequency of body acceleration for X direction
+| fbodyacc-mean()-y | mean() frequency of body acceleration for Y direction
+| fbodyacc-mean()-z | mean() frequency of body acceleration for Z direction
+| fbodyacc-std()-x | Standard deviation of frequency of body acceleration for X direction
+| fbodyacc-std()-y | Standard deviation of frequency of body acceleration for Y direction
+| fbodyacc-std()-z | Standard deviation of frequency of body acceleration for Z direction
+| fbodyaccjerk-mean()-x | mean() frequency of body accerlation jerk for X direction
+| fbodyaccjerk-mean()-y | mean() frequency of body accerlation jerk for Y direction
+| fbodyaccjerk-mean()-z | mean() frequency of body accerlation jerk for Z direction
+| fbodyaccjerk-std()-x | Standard deviation frequency of body accerlation jerk for X direction
+| fbodyaccjerk-std()-y | Standard deviation frequency of body accerlation jerk for Y direction
+| fbodyaccjerk-std()-z | Standard deviation frequency of body accerlation jerk for Z direction
+| fbodygyro-mean()-x | mean() frequency of body gyroscope measurement for X direction
+| fbodygyro-mean()-y | mean() frequency of body gyroscope measurement for Y direction
+| fbodygyro-mean()-z | mean() frequency of body gyroscope measurement for Z direction
+| fbodygyro-std()-x | Standard deviation frequency of body gyroscope measurement for X direction
+| fbodygyro-std()-y | Standard deviation frequency of body gyroscope measurement for Y direction
+| fbodygyro-std()-z | Standard deviation frequency of body gyroscope measurement for Z direction
+| fbodyaccmag-mean() | mean() frequency of body acceleration magnitude
+| fbodyaccmag-std() | Standard deviation of frequency of body acceleration magnitude
+| fbodybodyaccjerkmag-mean() | mean() frequency of body acceleration jerk magnitude
+| fbodybodyaccjerkmag-std() | Standard deviation of frequency of body acceleration jerk magnitude
+| fbodybodygyromag-mean() | mean() frequency of magnitude of body gyroscope measurement
+| fbodybodygyromag-std() | Standard deviation of frequency of magnitude of body gyroscope measurement
+| fbodybodygyrojerkmag-mean() | mean() frequency of magnitude of body gyroscope jerk measurement
+| fbodybodygyrojerkmag-std() | Standard deviation frequency of magnitude of body gyroscope jerk measurement
