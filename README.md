@@ -24,3 +24,8 @@ The script succesfully achieves our objective in preparing the data for analysis
 
 The dplyr package was used towards the end in calculating the grouped means.
 At various intervals in the script View() and summary() are used to monitor the results.  
+
+Reference:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+
